@@ -10,7 +10,7 @@ int main(int argc, char *argv[]){
     for (int i = 0; i < n; i++) {
         arraylist.push((rand() % n-25000)); 
     }
-     //removing all of elements from random positions
+    //removing all of elements from random positions
     for (int i = 0; i < n; i++) {
         arraylist.erase((rand() % n-i)); 
     }
